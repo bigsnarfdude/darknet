@@ -8,8 +8,16 @@ Darknet is an open source neural network framework written in C and CUDA. It is 
 download repo
 download weights
 
+### FaceDectection Webcam
+
 ```
 ./darknet yolo demo models/yolo-face.cfg backup/yolo-face_final.weights
+```
+
+### FaceDetection Movie
+
+```
+./darknet yolo demo models/yolo-face.cfg backup/yolo-face_final.weights demo_movie.mp4
 ```
 
 For more information see the [Darknet project website](http://pjreddie.com/darknet).
